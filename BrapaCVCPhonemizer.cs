@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using OpenUtau.Api;
@@ -7,12 +7,13 @@ using System.Linq;
 
 namespace BrapaPhonemizer
 {
-    [Phonemizer("BRAPA CVC Phonemizer", "BRAPA CVC", "HAI-D")]
+    [Phonemizer("BRAPA CVC Phonemizer", "BRAPA CVC", "Team BRAPA", language: "PT")]
     public class BrapaCVCPhonemizer : SyllableBasedPhonemizer {
 
         /// <summary>
-        /// Brazilian Portuguese CVC Phonemizer by HAI-D
-        /// Utilizing Brapa connotation
+        /// Brazilian Portuguese CVC Phonemizer by Team BRAPA
+        /// Doesn't use G2P Dictionary
+        /// Support for BRAPA connotation
         /// Alias: - C, - V, C -, V -, -C V, V C-, C V, V C, V, V V
         /// </summary>
 
