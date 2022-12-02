@@ -6,7 +6,7 @@ Observação: Somente as vogais são cadastradas neste Phonemizer, dando liberda
 
 
 ## Como utilizar
-- Baixe o Phonemizer em [Releases](https://github.com/Team-BRAPA/BRAPA-CVC-Phonemizer/releases)<br/>
+- Baixe a última versão do `BrapaPhonemizer.dll` em [Releases](https://github.com/Team-BRAPA/BRAPA-CVC-Phonemizer/releases)<br/>
 - Adicione o `BrapaPhonemizer.dll` na pasta `plugins` encontrada dentro do OpenUTAU
 
 
