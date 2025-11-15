@@ -1,13 +1,13 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using OpenUtau.Api;
 using OpenUtau.Plugin.Builtin;
 using System.Linq;
 
-namespace BrapaPhonemizer
-{
-    [Phonemizer("BRAPA CVC Phonemizer", "BRAPA CVC", "Team BRAPA", language: "PT")]
+namespace BrapaUtauPhonemizer {
+
+    [Phonemizer("BRAPA Base CVC Phonemizer", "BRAPA-B CVC", "Team BRAPA", language: "PT")]
     public class BrapaCVCPhonemizer : SyllableBasedPhonemizer {
 
         /// <summary>
